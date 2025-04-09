@@ -1,12 +1,64 @@
-# React + Vite
+# Anecdote Voting App 🗳️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+_A React application that displays random software engineering quotes and lets users vote for their favorites._
 
-Currently, two official plugins are available:
+![Demo Screenshot](./src/assets/Screenshot%202025-04-09%20204722.png) _(optional: add screenshot path)_
+![Demo Screenshot](./src/assets/Screenshot%202025-04-09%20204922.png) _(optional: add screenshot path)_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features ✨
 
-## Expanding the ESLint configuration
+- 🎲 **Random Anecdote Generator**: Displays random software engineering quotes
+- 👍 **Voting System**: Users can vote for their favorite anecdotes
+- 🏆 **Top Anecdote**: Highlights the quote with the most votes
+- 📊 **Vote Tracking**: Persists vote counts across sessions
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used 💻
+
+- ⚛️ React (Functional Components)
+- 🎣 useState Hook for state management
+- 🧊 Immutable state updates
+- 💅 Simple, clean UI
+
+## How It Works 🔍
+
+1. The app displays a random software engineering quote
+2. Users can:
+   - Click "Vote" to upvote the current quote
+   - Click "Next Anecdote" to see a new random quote
+3. The app tracks votes and displays the most popular quote
+
+## Installation & Setup ⚙️
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Josh-Alhassan/anecdote-voting-system.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd anecdote-app
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the app:
+   ```bash
+   npm start
+   ```
+
+## Future Improvements 🚀
+
+- [ ] Add animations for voting/quote changes
+- [ ] Implement sharing functionality
+- [ ] Add more categories of quotes
+- [ ] User accounts to save favorites
+
+## Contributing 🤝
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+---
+
+_Inspired by the Full Stack Open course_
+
+_MIT Liscense_
