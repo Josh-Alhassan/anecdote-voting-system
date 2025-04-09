@@ -2,8 +2,8 @@
 
 _A React application that displays random software engineering quotes and lets users vote for their favorites._
 
-![Demo Screenshot](./src/assets/Screenshot%202025-04-09%20204722.png) _(optional: add screenshot path)_
-![Demo Screenshot](./src/assets/Screenshot%202025-04-09%20204922.png) _(optional: add screenshot path)_
+![Demo Screenshot](./src/assets/Screenshot%202025-04-09%20204722.png)
+![Demo Screenshot](./src/assets/Screenshot%202025-04-09%20204922.png)
 
 ## Features ✨
 
